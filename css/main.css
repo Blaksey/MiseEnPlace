@@ -20,6 +20,10 @@ h2 {
     font-weight: normal;
 }
 
+.jumbotron {
+    margin-bottom: 16px;
+}
+
 /*********************************************
 NAVIGATION
 *********************************************/
@@ -39,4 +43,31 @@ footer {
 
 .social-icon {
     margin: 0 5px;
+}
+
+/***********************************************
+GALLERY
+**********************************************/
+
+.gallery-title
+{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+.filter-button {
+    margin: 5px;
 }
