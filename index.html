@@ -3,29 +3,19 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title></title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
-    <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
 
-    <!-- Add your site or application content here -->
     <header>
         <div id="logo">
             <a href="index.html">
@@ -36,7 +26,7 @@
 
             </a>
         </div>
-
+        
         <nav>
             <ul>
                 <li><a href="index.html" class="selected">Home</a></li>
@@ -52,16 +42,20 @@
         </nav>
     </header>
     <div id="wrapper">
-        <section>
-            <div>
+        <section class="container-fluid">
+            
+            <div class="col-sm-12">
                 <img src="img/EatHealthy.png" alt="Eat Healthy Be Active Get Results">
             </div>
-            <div>
-                <p>Welcome to Mise en Place Meal Prep! Our goal is to provide you with convenient, delicious, and healthy meals.
-                    In order to fit your weekly needs, we have several meal plan options to choose from. We have an Exercise
-                    & Nutrition Specialist on staff who works closely with our professional chefs to design a weekly menu
-                    full of well balanced, wholesome, calorie counted meals. We currently have 1 pick up location in Elizabethtown,
-                    Ky.</p>
+            
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Welcome to Mise en Place Meal Prep! Our goal is to provide you with convenient, delicious, and healthy meals.
+                        In order to fit your weekly needs, we have several meal plan options to choose from. We have an Exercise
+                        & Nutrition Specialist on staff who works closely with our professional chefs to design a weekly menu
+                        full of well balanced, wholesome, calorie counted meals. We currently have 1 pick up location in Elizabethtown,
+                        Ky.</p>
+                </div>
             </div>
 
         </section>
@@ -71,23 +65,15 @@
 
         </footer>
     </div>
-
-
     
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-        crossorigin="anonymous"></script>
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
 
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-        ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+   
 </body>
 
 </html>
