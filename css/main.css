@@ -2,46 +2,11 @@
 GENERAL
 *********************************************/
 
-body {
-    font-family: 'Open Sans', sans-serif;   
-}
-
-#wrapper {        
-    margin: 0 auto;
-    padding: 0 5%;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%
-}
-
-h3 {
-    margin: 0 0 1em 0;    
-}
 
 
 /*********************************************
 HEADING
 *********************************************/
-header {
-    float: left;
-    margin: 0 0 30px 0;
-    padding: 5px 0 0 0;
-    width: 100%;
-}
-
-#logo {
-    text-align: center;
-    margin: 0;
-    font-size: 2em;
-}
-#logo a:hover {
-    text-decoration: none;
-}   
 
 h1 {
     font-family: 'Sacramento', cursive;
@@ -59,26 +24,7 @@ h2 {
 NAVIGATION
 *********************************************/
 
-nav {    
-    text-align: center;
-    padding: 10px 0;
-    margin: 20px 0 0;
-}
 
-nav ul {
-    list-style: none;
-    margin: 0 10px;
-    padding: 0;
-}
-
-nav li {    
-    display: inline-block;
-
-}
-
-nav a {
-    padding: 15px 10px;    
-}
 
 /*********************************************
 FOOTER
@@ -94,41 +40,3 @@ footer {
 .social-icon {
     margin: 0 5px;
 }
-
-/*********************************************
-COLORS
-*********************************************/
-body {
-    background-color: #fff;
-    color: #999;
-}
-
-/* green header */
-header {
-    background: #6ab47b;
-    border-color: #599a68;
-}
-/* nav background on mobile */
-nav {
-    background: #599a68;
-}
-
-/* logo text */
-h1, h2 {
-    color: #fff;
-}
-
-a {
-    color: #6ab47b;
-}
-/* nav link */
-nav a, nav a:visited {
-    color: #fff;
-}
-/* selected nav link */
-nav a.selected, nav a:hover {
-    color: #32673f;
-}
-
-/* site body */
-
