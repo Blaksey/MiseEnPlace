@@ -1,9 +1,14 @@
 @media (min-width: 768px) {
 
+    #brand{
+        margin-top: 0rem;
+    }
     
     #brand h1, h2 {
         font-size: 1.75rem;
-        padding-top: 10px;
+    }
+    #brand a img {
+        display: unset;
     }
     .navbar-brand.abs
         {
@@ -13,6 +18,8 @@
             text-align: center;
             margin:0 auto;
         }
+
+    
     }
 
 @media (min-width: 1000px) {

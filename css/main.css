@@ -22,16 +22,20 @@ NAVIGATION
     flex-shrink: 1;
     font-family: 'Sacramento', cursive;
     font-weight: normal;
+    margin-top: 1rem;
+}
+#brand a img {
+    display:none;
 }
 
 #brand h1 {
-    line-height: 0.5em;
+    line-height: 0.5rem;
 }
 #brand h2 {
     margin-bottom: 0;
 }
 #brand h1, h2 {
-    font-size: 1.75em;
+    font-size: 1.75rem;
 }
 
 
