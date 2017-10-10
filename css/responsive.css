@@ -2,7 +2,7 @@
 
     
     #brand h1, h2 {
-        font-size: 1.75em;
+        font-size: 1.75rem;
         padding-top: 10px;
     }
     .navbar-brand.abs
@@ -21,6 +21,9 @@
     }
     #brand h1, h2 {        
         margin: auto;
+    }
+    #brand h2 {
+        margin-bottom: auto;
     }
 
 }
