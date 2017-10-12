@@ -2,4 +2,4 @@
 Mise en Place Meal Prep
 
 
-Re-Designing miseenplacemealprep.com from Wix to a mobile-first responsive site using Bootstrap4.
+Re-Designing  [Mise En Place Meal Prep](miseenplacemealprep.com) from the live Wix page to a mobile-first responsive site using Bootstrap4.
