@@ -2,7 +2,14 @@
 GENERAL
 *********************************************/
 
-
+.page-title
+{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 
 /*********************************************
 HEADING
@@ -58,14 +65,7 @@ footer {
 GALLERY
 **********************************************/
 
-.gallery-title
-{
-    font-size: 36px;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
+
 
 
 .port-image
@@ -81,3 +81,7 @@ GALLERY
 .filter-button {
     margin: 5px;
 }
+
+/***********************************************
+MENU
+**********************************************/
