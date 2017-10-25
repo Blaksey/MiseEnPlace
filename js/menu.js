@@ -12,29 +12,23 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1dSSJioqfGgVI2tW7AKWOWt4Zj
     var Template = Handlebars.compile(Source);
     
     var arr = data.feed.entry;
-    var content = arr[0].content.$t;
+    var content;
     var split; 
     var values = [];
     var calorieData = {};
     calorieData.Weeks = [];
     var vegetarianData = {};
-    vegetarianData.Weeks = [];
-
-    //calorieData.Weeks.push({Dates:"Week1", Meal1: "Item1",Meal2: "Item2",Meal3: "Item3",Meal4: "Item4",Meal5: "Item5"});
-    
-
+    vegetarianData.Weeks = [];    
     
     for(i in arr) {
 
         content = arr[i].content.$t;
         split = content.split(",");
-        values = [];
 
         for(j in split) {
             values[j] = split[j].replace(/^[^:]*:\s*/, "");
             //console.log("Array index: " + j + " Value = " + values[j]);
         }
-
 
         if(arr[i].title.$t == "Calorie Counted"){
             //do a push into the weeks array instead of +=
@@ -52,9 +46,7 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1dSSJioqfGgVI2tW7AKWOWt4Zj
         }
     }
 
-
     $("#calorieMeals").append(Template(calorieData));
     $("#vegetarianMeals").append(Template(vegetarianData));
 });
-
-
+  
